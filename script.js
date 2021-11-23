@@ -11,6 +11,6 @@ req.send();
 req.onload = function(){
     var data=JSON.parse(this.response);
     for(let i=0;i<data.length;i++){
-        console.log(data[i])
+        console.log(data[i].id)
     }
 }
