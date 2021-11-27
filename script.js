@@ -2,7 +2,7 @@
 var req = new XMLHttpRequest();
 
 //2.Opening request connenction
-req.open("GET","https://jsonplaceholder.typicode.com/users");
+req.open("GET","https://jsonplaceholder.typicode.com/posts");
 
 //3.Send a request
 req.send();
